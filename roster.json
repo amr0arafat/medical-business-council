@@ -1,0 +1,19 @@
+{
+  "board": "ask",
+  "default": ["bezos", "grove", "hastings", "nadella", "musk", "gates"],
+  "always": ["guardian"],
+  "seats": [
+    { "key": "bezos", "name": "Jeff Bezos", "short": "Bezos", "slug": "jeff-bezos", "kind": "persona", "pillar": "Strategy and decisions", "question": "Is this the right bet for the institution, and how reversible is it?", "dimension": "Strategic fit and reversibility" },
+    { "key": "grove", "name": "Andy Grove", "short": "Grove", "slug": "andy-grove", "kind": "persona", "pillar": "Operations and managerial output", "question": "What is the output, where is the bottleneck, and who is measured on it?", "dimension": "Operational throughput" },
+    { "key": "hastings", "name": "Reed Hastings", "short": "Hastings", "slug": "reed-hastings", "kind": "persona", "pillar": "People, culture, and policy design", "question": "Does this policy add rules where talent and context would do better?", "dimension": "Talent density and policy simplicity" },
+    { "key": "nadella", "name": "Satya Nadella", "short": "Nadella", "slug": "satya-nadella", "kind": "persona", "pillar": "Transformation and change adoption", "question": "Will the people actually adopt this, and does it make the institution a learn-it-all?", "dimension": "Change adoption and culture" },
+    { "key": "musk", "name": "Elon Musk", "short": "Musk", "slug": "elon-musk", "kind": "persona", "pillar": "First principles and bureaucracy removal", "question": "Which requirement is real, which step can be deleted, and what is the true constraint?", "dimension": "Process simplicity and speed" },
+    { "key": "gates", "name": "Bill Gates", "short": "Gates", "slug": "bill-gates", "kind": "persona", "pillar": "Money, impact, and measurement", "question": "What does it cost, what measurable result does it buy, and is the funding sustainable?", "dimension": "Cost-effectiveness and financial sustainability" },
+    { "key": "jobs", "name": "Steve Jobs", "short": "Jobs", "slug": "steve-jobs", "kind": "persona", "pillar": "Simplicity and service experience", "question": "Is this simple enough that busy staff, researchers, and patients will actually use it?", "dimension": "Simplicity and experience" },
+    { "key": "collison", "name": "Patrick Collison", "short": "Collison", "slug": "patrick-collison", "kind": "persona", "pillar": "Research productivity and science funding", "question": "Does this make researchers faster and the research enterprise more productive?", "dimension": "Research velocity" },
+    { "key": "doerr", "name": "John Doerr", "short": "Doerr", "slug": "john-doerr", "kind": "persona", "pillar": "Goals, OKRs, and accountability", "question": "What exactly are we measuring, who owns it, and how will we know by when?", "dimension": "Goal clarity and measurability" },
+    { "key": "horowitz", "name": "Ben Horowitz", "short": "Horowitz", "slug": "ben-horowitz", "kind": "persona", "pillar": "Hard decisions and leadership under pressure", "question": "What is the hard thing nobody wants to say, and is leadership ready to do it?", "dimension": "Leadership resolve" },
+    { "key": "huang", "name": "Jensen Huang", "short": "Huang", "slug": "jensen-huang", "kind": "persona", "pillar": "AI leverage and org design", "question": "Does this give every staff member AI leverage, and is the organization flat enough to move?", "dimension": "AI readiness and org agility" },
+    { "key": "guardian", "name": "Governance Guardian", "short": "Guardian", "slug": null, "kind": "role", "pillar": "Governance, compliance, and ethics", "question": "Is this lawful, accreditable, fair to staff, and safe for patient data and the institution's reputation?", "dimension": "Governance and compliance", "veto": true }
+  ]
+}

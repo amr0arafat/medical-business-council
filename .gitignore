@@ -1,0 +1,10 @@
+# Raw downloaded sources (full copyrighted texts). Never publish.
+build/
+
+# Council runs from your own institution
+council-sessions/
+
+# Python and OS clutter
+__pycache__/
+*.pyc
+.DS_Store
